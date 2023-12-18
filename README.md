@@ -6,14 +6,17 @@
 
 ## For Dagshub
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow
-MLFLOW_TRACKING_USERNAME=entbappy 
-MLFLOW_TRACKING_PASSWORD=6824692c47a4545eac5b10041d5c8edbcef0
+MLFLOW_TRACKING_URI=https://dagshub.com/deepsuchak/MLflow-Basic-Operation.mlflow \
+MLFLOW_TRACKING_USERNAME=deepsuchak \
+MLFLOW_TRACKING_PASSWORD=1bae85f3cea917e576bbd13345890a218661c7ce \
 python script.py
 
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow
+'''bash
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export MLFLOW_TRACKING_URI=https://dagshub.com/deepsuchak/MLflow-Basic-Operation.mlflow
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9353c5b10041d5c8edbcef0
+export MLFLOW_TRACKING_USERNAME=deepsuchak
+
+export MLFLOW_TRACKING_PASSWORD=1bae85f3cea917e576bbd13345890a218661c7ce
+'''
